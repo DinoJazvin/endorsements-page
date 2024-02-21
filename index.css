@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(7, 1, 25);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    /* max-width: 20%;
+    max-height: 20%; */
+}
+
+#textarea-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#mercury-img {
+    max-width: 20%;
+}
+
+#myTextarea {
+    width: 350px; /* Set your desired width */
+    height: 100px; /* Set your desired height */
+    background-color: #444059;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    resize: none;
+}
+
+#publish-btn {
+    width: 370px; /* Set your desired width */
+    height: 40px; 
+    margin-top: 8px;
+    border-radius: 8px;
+    background-color: rgb(43, 154, 234);
+    color: rgb(7, 1, 25);;
+    border: none;
+    font-weight: bolder;
+    font-size: medium;
+    font-size: 20px;
+}
+
+#endorsements-output {
+    resize: none;
+    margin: 5px;
+    width: 350px; /* Set your desired width */
+    height: 50px; /* Set your desired height */
+    border-radius: 10px;
+    padding: 10px;
+}
